@@ -1,0 +1,21 @@
+fastapi==0.111.0            
+# The FastAPI framework for building APIs
+uvicorn[standard]==0.30.1   
+# ASGI server to run FastAPI applications
+pandas==2.2.2               
+# For reading and manipulating your CSV dataset
+scikit-learn==1.5.0         
+# For calculating cosine similarity to find relevant data
+sentence-transformers==2.7.0
+# For converting text into numerical embeddings (vectors)
+transformers==4.42.3        
+# For loading and running the local LLM model
+torch @ https://download.pytorch.org/whl/cpu/torch-2.3.1%2Bcpu-cp39-cp39-win_amd64.whl
+          
+# The deep learning framework required by transformers (CPU-only version)
+duckduckgo_search==6.1.1    
+# For performing free internet searches
+pydantic==2.8.2             
+# Required by FastAPI for data validation/serialization
+python-multipart==0.0.9     
+# Dependency for FastAPI's form data handling (often useful for static files)
